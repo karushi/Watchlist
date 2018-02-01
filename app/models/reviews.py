@@ -8,7 +8,6 @@ class Review:
         self.imagurl = imageurl
         self.review = review
 
-
     def save_review(self):
         Review.all_reviews.append(self)
 

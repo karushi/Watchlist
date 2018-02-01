@@ -1,4 +1,4 @@
-ghy,k,from app import app
+from app import app
 import urllib.request
 import json
 from .models import movie
